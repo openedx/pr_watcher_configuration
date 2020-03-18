@@ -4,5 +4,5 @@
     - "*.rst"
     - "*.md"
   recipients:
-    - "nedbat+notifier@edx.org"
+    - "ned+notifier@edx.org"
   subject: "PR Watcher notifier: watched change in edx/{repo}"
