@@ -1,8 +1,8 @@
 # Configuration for pr-watcher-notifier
 "edx/*":
   patterns:
-    - "*.rst"
-    - "*.md"
+    - "*/*.rst"
+    - "*/*.md"
   recipients:
     - "ned+notifier@edx.org"
-  subject: "PR Watcher notifier: watched change in edx/{repo}"
+  subject: "PR Watcher notifier: watched change in {repo}"
