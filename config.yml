@@ -6,3 +6,4 @@
   recipients:
     - "ned+notifier@edx.org"
   subject: "PR Watcher notifier: watched change in {repo}"
+  body: adr-body.txt
