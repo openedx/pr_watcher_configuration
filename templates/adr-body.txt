@@ -1,6 +1,6 @@
 Hey, and ADR or something!
 
-Pull request #{{ number }} ({{ pr_url }}) against the {{ repo }} repository has been {{ action }}.
+Pull request #{{ number }} "{{ pr.title }}" ({{ pr_url }}) against the {{ repo }} repository has been {{ action }}.
 
 This contains files matching {{ patterns }}.
 
