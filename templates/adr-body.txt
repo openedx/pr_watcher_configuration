@@ -1,9 +1,8 @@
-Hey, and ADR or something!
+A pull request has files you might be interested in.
 
-Pull request #{{ number }} ({{ pr_url }}) against the {{ repo }} repository has been {{ action }}.
+Pull request #{{ number }} "{{ pr.title }}" ({{ pr_url }} by {{ pr.user.login }}) against the {{ repo }} repository (branch {{ pr.base.ref }}) has been {{ action }}.
 
-This contains files matching {{ patterns }}.
-
+Changed files matching the filter:
 {% for modified_file in modified_files %}
   * {{ modified_file }}
 {% endfor %}

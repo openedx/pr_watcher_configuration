@@ -5,5 +5,5 @@
     - "*/*.md"
   recipients:
     - "ned+notifier@edx.org"
-  subject: "PR Watcher notifier: watched change in {repo}"
+  subject: "PR Watcher: change in {repo}"
   body: adr-body.txt
