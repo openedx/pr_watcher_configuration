@@ -8,5 +8,6 @@
     - "*/*.md"
   recipients:
     - "ned+notifier@edx.org"
+    - "s5c2n2m2v2t0b2l2@openedx.slack.com"
   subject: "PR Watcher: change in {repo}"
   body: adr-body.txt
