@@ -1,5 +1,8 @@
 # Configuration for pr-watcher-notifier
 "edx/*":
+  exclude:
+    - "edx/edx-documentation"
+    - "edx/edx-developer-docs"
   patterns:
     - "*/*.rst"
     - "*/*.md"
