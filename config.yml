@@ -7,7 +7,9 @@
     - "*/*.rst"
     - "*/*.md"
   recipients:
-    - "ned+notifier@edx.org"
+    # The Google Group for people who want email.
+    - "adr-notifications@edx.org"
+    # The #adr-notifications channel in the Open edX Slack.
     - "s5c2n2m2v2t0b2l2@openedx.slack.com"
   subject: "PR Watcher: change in {repo}"
   body: adr-body.txt
