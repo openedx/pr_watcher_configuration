@@ -10,6 +10,6 @@
     # The Google Group for people who want email.
     # The #adr-notifications channel in the Open edX Slack.
     # "s5c2n2m2v2t0b2l2@openedx.slack.com" is on the ggroup.
-    - "adr-notifications@edx.org"
+    - "adr-notifications@googlegroups.com"
   subject: "PR Watcher: change in {repo}"
   body: adr-body.txt
