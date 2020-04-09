@@ -1,15 +1,16 @@
 # Configuration for pr-watcher-notifier
 "edx/*":
-  exclude:
-    - "edx/edx-documentation"
-    - "edx/edx-developer-docs"
   patterns:
-    - "*/*.rst"
-    - "*/*.md"
+    - "decisions/*.rst"
+    - "decisions/*.md"
+    - "*/decisions/*.rst"
+    - "*/decisions/*.md"
+    - "oeps/*.rst"
+    - "oeps/*.md"
   recipients:
     # The Google Group for people who want email.
     # The #adr-notifications channel in the Open edX Slack.
     # "s5c2n2m2v2t0b2l2@openedx.slack.com" is on the ggroup.
     - "adr-notifications@googlegroups.com"
-  subject: "PR Watcher: change in {repo}"
+  subject: "Change in {repo}"
   body: adr-body.txt
