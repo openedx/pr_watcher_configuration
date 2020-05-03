@@ -12,5 +12,5 @@
     # The #adr-notifications channel in the Open edX Slack.
     # "s5c2n2m2v2t0b2l2@openedx.slack.com" is on the ggroup.
     - "adr-notifications@googlegroups.com"
-  subject: "Change in {repo}"
+  subject: "Change in {{repo}}: {{pr.title}}"
   body: adr-body.txt
