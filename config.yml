@@ -7,6 +7,10 @@
     - "*/decisions/*.md"
     - "oeps/*.rst"
     - "oeps/*.md"
+    - "guides/*.rst"
+    - "guides/*.md"
+    - "*/guides/*.rst"
+    - "*/guides/*.md"
   recipients:
     # The Google Group for people who want email.
     # The #adr-notifications channel in the Open edX Slack.
