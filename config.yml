@@ -1,5 +1,5 @@
 # Configuration for pr-watcher-notifier
-"edx/*":
+"edx/*": &adr_config
   patterns:
     - "decisions/*.rst"
     - "decisions/*.md"
@@ -18,3 +18,4 @@
     - "adr-notifications@googlegroups.com"
   subject: "Change in {{repo}}: {{pr.title}}"
   body: adr-body.txt
+"openedx/*": *adr_config
