@@ -1,6 +1,6 @@
-A pull request has files you might be interested in.
+{{ pr.user.login }} {{ action }} this pull request:
 
-"{{ pr.title }}" ({{ pr_url }} by {{ pr.user.login }}) against the {{ repo }} repository (branch {{ pr.base.ref }}) has been {{ action }}.
+"{{ pr.title }}" ({{ pr_url }}) against the {{ repo }} repository (branch {{ pr.base.ref }}).
 
 Changed files matching the filter:
 {% for modified_file in modified_files %}
